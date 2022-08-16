@@ -3,7 +3,7 @@ import json
 import discord
 import requests
 
-api_key = os.environ['API_KEY']
+api_key = os.environ['ENGINE']
 
 
 def search(query):
